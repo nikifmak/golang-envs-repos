@@ -52,6 +52,5 @@ func loadExtraEnv() error {
 	}
 
 	envPath = path.Join(dir, envPath)
-	fmt.Println(envPath)
 	return godotenv.Load(envPath)
 }
